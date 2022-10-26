@@ -35,6 +35,11 @@ function hasTargetSum(array, target) {
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
+  console.log("=>", hasTargetSum([2, 4, 7, 2, 9, 8,], 4));
+
+  console.log("Expecting: false");
+  console.log("=>", hasTargetSum([1, 9, 8, 7, 4, 8, 2], 50))
+  console.log("Expecting: true");
   console.log("=>", hasTargetSum([3, 8, 12, 4, 11, 7], 10));
 
   console.log("");
